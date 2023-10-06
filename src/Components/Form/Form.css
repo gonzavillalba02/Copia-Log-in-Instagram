@@ -1,0 +1,120 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15% 15% 10% 15%;
+    border: solid #ccc;
+    border-width: 1px;
+}
+
+.titulo {
+    width: 75%;
+    margin-bottom: 10%;
+}
+
+.container-form input {
+    border: inherit;
+    width: 91%;
+    padding: 4%;
+    margin: 1% 5%;
+    background-color: #fafafa;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 75%;
+}
+
+.container-form button {
+    width: 100%;
+    padding: 3%;
+    border: none;
+    border-radius: 8px;
+    background-color: #4cb5f9;
+    color: white;
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+}
+
+.linea {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.container-form-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form-facebook img {
+    width: 7%;
+    height: 7%;
+    margin-right: 2%;
+}
+
+.container-form-facebook p {
+    color: #385185;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+}
+
+.container-form a {
+    color: #385185;
+    text-decoration: none;
+    font-size: 75%;
+}
+
+.registrate {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 114%;
+    border: solid #ccc;
+    border-width: 1px;
+    margin-top: 5%;
+    padding: 2% 8%;
+}
+
+.registrate p {
+    margin-right: 3%;
+    font-size: 90%;
+}
+
+.registrate a {
+    color: #0094f7;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+}
+
+.Descarga-texto {
+    font-size: 85%;
+}
+
+.Descargas {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.Descargas-img-google {
+    width: 60%;
+}
+
+.Descargas-img-tilde {
+    width: 10%;
+}
+
+.Descargas-img-mic {
+    width: 50%;
+}
